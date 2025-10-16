@@ -9,6 +9,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    #runs-on: [self-hosted, Intela] or runs-on: Intela
     strategy:
       matrix:
         node-version: [14, 16, 18]
