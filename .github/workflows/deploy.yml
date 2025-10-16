@@ -7,4 +7,4 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Deployment (demo): Your secret is ${{ secrets.SECRET_TOKEN }}"
+      - run: echo "I'm fine"
